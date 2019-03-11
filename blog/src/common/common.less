@@ -1,0 +1,13 @@
+@dividerLineColor: rgba(230,230,230,.5);
+
+@mainColor: #ea6f5a;
+
+
+.maxLines(@line: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @line;
+  -webkit-box-orient: vertical;
+  box-sizing: content-box;
+}
